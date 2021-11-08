@@ -9,9 +9,14 @@ function solveRect(l,b) {
             }
         else {
             console.log("The area of the rectangle of dimensions l = "
-                    + l + " and b = " + b + " is " + rectangle.area())
+                    + l + " and b = " + b + " is " + rectangle.area());
+            console.log("The perimeter of the rectangle of dimensions l = "
+                    + l + " and b = " + b + " is " + rectangle.perimeter());
+
             }
     });
+
+    console.log("This statement is after the call to rect()");
 
 }
 
