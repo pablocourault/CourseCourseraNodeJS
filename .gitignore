@@ -3,6 +3,8 @@
 # dependencies
 /node_modules
 /node-express/node_modules
+/conFusionServer/node_modules
+conFusionServer/node_modules
 /.pnp
 .pnp.js
 
