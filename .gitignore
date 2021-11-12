@@ -2,7 +2,9 @@
 
 # dependencies
 /node_modules
+/mongodb
 /node-express/node_modules
+/node-mongo/node_modules
 /conFusionServer/node_modules
 conFusionServer/node_modules
 /.pnp
