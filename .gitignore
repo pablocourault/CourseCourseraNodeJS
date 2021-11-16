@@ -3,5 +3,5 @@ node_modules
 /node-express/node_modules
 /node-http/
 /node-mongo/node_modules
-/node-mongose/node_modules
+/node-mongoose/node_modules
 
