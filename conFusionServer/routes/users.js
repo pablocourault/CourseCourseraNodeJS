@@ -26,7 +26,7 @@ router.post('/signup', (req, res, next) => {
             else
               {
                 if (req.body.firstname)
-                    { user.lastname = req.body.firstname; }
+                    { user.firstname = req.body.firstname; }
                 if (req.body.lastname)
                     { user.lastname = req.body.lastname; }
                 user.save((err, user) => {
