@@ -1,5 +1,6 @@
 node_modules
 /conFusionServer/node_modules
+/conFusionServer/sessions
 /node-express/node_modules
 /node-http/
 /node-mongo/node_modules
