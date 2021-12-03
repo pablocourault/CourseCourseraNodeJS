@@ -26,7 +26,7 @@ favoriteRouter.route('/')
 .post(cors.corsWithOptions, (req,res,next) => { 
     Favorites.create(req.body)
     .then((favorite) => {
-        console.log('Favorite Added ', dish);
+        console.log('Favorite Added ', favorite);
         res.statusCode = 200;
         res.setHeader('Content-Type', 'application/json');
         res.json(favorite);

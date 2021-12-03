@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const dishesSchema = new Schema({
     dishes: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'Dishes'
+        ref: 'Dish'
         }
     },
     {
@@ -17,7 +17,7 @@ const favoriteSchema = new Schema({
           type: mongoose.Schema.Types.ObjectId,
           ref: 'User'
         },
-    dishes: [dishesSchema],
+    dishes: [ dishesSchema ],
     }, 
     {
     timestamps: true
